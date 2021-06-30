@@ -1,0 +1,15 @@
+{
+  "name": "ixv9w",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "/loginForm.html",
+  "dependencies": {
+    "mobx": "^5.14.0",
+    "mobx-react": "^6.1.3",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2"
+  }
+}
