@@ -2,12 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 export class loginForm extends React.Component {
-    constructor(props) {
-      super(props);
-    }
-    render() {
-      return (
-        <form action="#" th:action="@{/}" th:object="${User}" method="post">
+  render() {
+    return <h1>hi</h1>;
+  }
+}
+const rootElement = document.getElementById("root");
+ReactDOM.render(<loginForm />, rootElement);
+
+/*
+
+      <form action="#" th:action="@{/}" th:object="${User}" method="post">
             <table>
                 <tr>
                     <td>Name:</td>
@@ -24,10 +28,7 @@ export class loginForm extends React.Component {
                 </tr>
             </table>
         </form>
-      );
-    }
-}
-const rootElement = document.getElementById("root");
-ReactDOM.render(<loginForm />, rootElement);
 
 
+
+*/
