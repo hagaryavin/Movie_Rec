@@ -1,9 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Profile } from './profile';
+import { Succeded } from './succeded';
 import React from 'react';
-export class loginForm extends React.Component {
+export class LogForm extends React.Component {
     constructor(props){
         super(props);
         this.state={userName:"",password:"",ok:false};
@@ -39,6 +37,4 @@ export class loginForm extends React.Component {
       }
     }
 }
-const rootElement = document.getElementById("root");
-ReactDOM.render(<loginForm />, rootElement);
-
+  
