@@ -35,7 +35,7 @@ export class loginForm extends React.Component {
         </form>);
       }
       else{
-          return(<Succeded name={this.state.userName}/>);
+          return(<Profile name={this.state.userName}/>);
       }
     }
 }
