@@ -27,8 +27,8 @@ public class User {
 	public void setPassword(String password) {
 		this.password=password;
 	}
-	public boolean login(String pass, String uName){
-		if(pass.equals(this.password)&&uName.equals(this.userName)) {
+	public boolean login(String password, String userName){
+		if(password.equals(this.password)&&userName.equals(this.userName)) {
 			return true;
 		}
 		return false;

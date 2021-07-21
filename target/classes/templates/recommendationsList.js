@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import { Rec } from './rec';
-export class RecList extends React.Component {
+import { Recommendation } from './recommendation';
+export class RecommendationsList extends React.Component {
     constructor(props){
         super(props);
         this.state={recs:[
@@ -12,7 +12,7 @@ export class RecList extends React.Component {
     render(){
         var recsList ="";
         this.state.recs.map((rec) =>{
-            recsList+=<Rec movieName={rec.movieName} name={this.props.name} fullRec={rec.fullRec}/>
+            recsList+=<Recommendation movieName={rec.movieName} name={this.props.name} fullRec={rec.fullRec}/>
         });
         return(
            {recsList}  

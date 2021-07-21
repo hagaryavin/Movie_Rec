@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-export class Rec extends React.Component {
+export class Recommendation extends React.Component {
     render(){
         return(
             <div className="card" style="width: 18rem;">
